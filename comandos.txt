@@ -32,4 +32,7 @@ $ git commit -am "resolve conflito"
 
 $ git checkout -b add-comandos
 
+$ git remote add origin-atividade https://github.com/joaovitor73/curso-git
+-ead-ifrn.git
 
+$ git push -u origin-atividade main
