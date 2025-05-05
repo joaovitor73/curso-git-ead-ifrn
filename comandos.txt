@@ -1,0 +1,38 @@
+Nome: João Vitor Gomes Vieira
+
+Comandos:
+
+$ git clone  https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+
+$ cd curso-branchs-ifrn-ead/
+
+$ nano texto.txt
+
+$ git add .
+
+$ git commit -m "cria arquivo texto e insere o conteúdo"
+
+$ git checkout -b feature-1
+
+$ nano texto.txt
+
+$ git commit -am "altera o conteúdo"
+
+$ git switch main
+
+$ nano texto.txt
+
+$ git commit -am "altera o conteúdo na main"
+
+$ git merge feature-1
+
+$ nano texto.txt
+
+$ git commit -am "resolve conflito"
+
+$ git checkout -b add-comandos
+
+$ git remote add origin-atividade https://github.com/joaovitor73/curso-git
+-ead-ifrn.git
+
+$ git push -u origin-atividade main
